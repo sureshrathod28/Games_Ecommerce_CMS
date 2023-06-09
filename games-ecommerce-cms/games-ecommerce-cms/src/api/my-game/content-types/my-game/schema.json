@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "my_games",
+  "info": {
+    "singularName": "my-game",
+    "pluralName": "my-games",
+    "displayName": "My-Game"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
