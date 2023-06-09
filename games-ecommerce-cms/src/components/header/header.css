@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.logo-img{
+    height: 60px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.fa.fa-shopping-cart {
+    font-size: 40px;
+    color: orangered;
+    position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+    
+  }
+  .length{
+    font-size: 24px;
+    position: fixed;
+    top: 25px;
+    right: 60px;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 100;
+  }
+  .line {
+    height: 5px;
+    background-color:#337ab7 ;
+    margin-top: 10px;
+  }
