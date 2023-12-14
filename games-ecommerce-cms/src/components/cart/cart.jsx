@@ -23,7 +23,7 @@ const Cart=()=>{
     const RazorPay=useRazorPay()
     const razorPayDisplay=useCallback(async(total)=>{
            const options={
-                key:"rzp_test_jewWsRjq2c7C8p",
+                key:"rzp_test_GuFK7I2tKrydIo",
                 amount:total*100,
                 currency:"INR",
                 name:"Shree Ram Games",
